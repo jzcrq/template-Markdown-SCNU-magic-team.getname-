@@ -46,7 +46,7 @@ struct SGT
 	{
 		apply(p<<1,tag[p]);
 		apply(p<<1|1,tag[p]);
-		tag[p]=tag();
+		tag[p]=Tag();
 	}
 
 	void modify(int p,int l,int r,int x,const Info &v)
